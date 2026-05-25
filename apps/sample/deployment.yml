@@ -23,7 +23,7 @@ spec:
       - name: sample
 
         image:
-          ghcr.io/ramchandk/sample:v1
+          ghcr.io/ramchandk/sample:latest
 
         ports:
         - containerPort: 5000
