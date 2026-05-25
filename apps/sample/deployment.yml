@@ -18,6 +18,9 @@ spec:
         app: sample
 
     spec:
+      imagePullSecrets:
+
+      - name: ghcr-secret
       containers:
 
       - name: sample
