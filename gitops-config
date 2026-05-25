@@ -1,0 +1,9 @@
+gitops-config/
+
+apps/sample/
+
+deployment.yaml
+service.yaml
+route.yaml
+kustomization.yaml
+argocd.yaml
