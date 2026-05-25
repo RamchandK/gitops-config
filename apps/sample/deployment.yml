@@ -28,5 +28,6 @@ spec:
         image:
           ghcr.io/ramchandk/sample:latest
 
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
